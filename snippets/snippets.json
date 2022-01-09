@@ -2,7 +2,7 @@
 	"steps": {
 		"prefix": "steps",
 		"body": "steps &lt;&lt;-CUCUMBER\r\n${1:`pbpaste`}\r\nCUCUMBER",
-		"description": "Cucumber Multiline Steps",
+		"description": "Carrot Multiline Steps",
 		"scope": "source.ruby.rspec.cucumber.steps"
 	},
 	"giv": {
@@ -48,7 +48,10 @@
 		"body": ["Feature: ${1:title}",
 				"\tIn order to ${2:value}",
 				"\tAs a ${3:role}",
-				"\tI want ${4:feature}\r\n",
+				"\tI want ${4:feature}\r\n\r\n",
+				"\tOKR: ${5: okr}",
+				"\tEpic: ${6: epic}",
+				"\tSprint: ${7: sprint}\r\n",
 				"\t$0"],
 		"description": "Feature",
 		"scope": "text.gherkin.feature"
