@@ -1,24 +1,24 @@
 {
-  "name": "cucumber",
-  "version": "0.13.5",
+  "name": "carrot",
+  "version": "0.1",
   "engines": {
     "vscode": "^0.10.0"
   },
-  "displayName": "Snippets and Syntax Highlight for Gherkin (Cucumber)",
+  "displayName": "Snippets and Syntax Highlight for carrot (Cucumber)",
   "description": "Code snippets to write scenarios faster + Syntax highlight for .feature files",
-  "publisher": "stevejpurves",
+  "publisher": "talvinder",
   "icon": "images/logo.png",
   "galleryBanner": {
     "color": "#512DA8",
     "theme": "dark"
   },
   "bugs": {
-    "url": "https://github.com/euclidity/vscode-cucumber/issues"
+    "url": "https://github.com/talvinder/vscode-carrot/issues"
   },
-  "homepage": "https://github.com/euclidity/vscode-cucumber/blob/master/README.md",
+  "homepage": "https://github.com/talvinder/vscode-carrot/blob/master/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/euclidity/vscode-cucumber.git"
+    "url": "https://github.com/talvinder/vscode-carrot.git"
   },
   "categories": [
     "Snippets",
@@ -27,6 +27,7 @@
   ],
   "keywords": [
     "gherkin",
+    "carrot",
     "cucumber",
     "snippet",
     "template",
